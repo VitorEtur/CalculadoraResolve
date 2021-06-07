@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+.bg{
+    background-image: url(../img/ResolveBG.png);
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.calculadora{
+    position: absolute;
+    top: 123px;
+    left: 563px;
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 31px;
+    cursor: pointer;
+    margin: 0px;
+    background-color: rgb(255 59 59);
+    background: none;
+    border: 1;
+    border-radius: 15px;
+    color: #b9b1b1;
+}
+.botao:hover{
+    background-image: linear-gradient(45deg, #344585, #2b3256);
+}
+#resultado{
+    position: absolute;
+    width: 195px;
+    background-image: linear-gradient(41deg,#44317d, transparent);
+    height: 25px;
+    margin-left: 5px;
+    margin-top: -38px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-bottom: inset;
+    border-color: #00748c;
+    border-radius: 9px;
+}
